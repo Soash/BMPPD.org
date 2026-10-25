@@ -1,10 +1,9 @@
-# Bangladeshi Medicinal Plant Phytochemicals Database (BMPPD): A Curated Web-Based Cheminformatics and Ethnobotanical Repository for Natural Product Drug Discovery
+# BMPPD: Bangladeshi Medicinal Plant Phytochemicals Database (BMPPD)
 
 [![Live Platform](https://img.shields.io/badge/Platform-Live-brightgreen.svg)](https://bmppd.org/)
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/)
 [![Django](https://img.shields.io/badge/Django-5.2-092E20.svg)](https://www.djangoproject.com/)
 [![PubChem Cross-Referenced](https://img.shields.io/badge/Cross--Reference-PubChem%20CID-orange.svg)](https://pubchem.ncbi.nlm.nih.gov/)
-[![License](https://img.shields.io/badge/License-Research%20%26%20Educational-lightgrey.svg)](#terms-of-use--citation)
 
 ---
 
@@ -12,13 +11,13 @@
 
 Natural products derived from medicinal flora represent a primary cornerstone of pharmacophore discovery and traditional healthcare systems. Despite Bangladesh's extensive botanical diversity and deep-rooted ethnopharmacological heritage, scientific exploration of these bioresources has historically suffered from fragmented literature, unstandardized vernacular taxonomies, and an absence of unified computational repositories. 
 
-Here, we present the **Bangladeshi Medicinal Plant Phytochemicals Database (BMPPD)** ([https://bmppd.org](https://bmppd.org)), the first comprehensive, peer-curated, web-accessible cheminformatics and ethnobotanical database devoted to the medicinal plants of Bangladesh. Developed over two years of rigorous literature synthesis at **Dawnilab** (the research division of *Dawn of Bioinformatics Limited Bangladesh*), BMPPD bridges ethnobotanical folk taxonomy with structured molecular cheminformatics. 
+Here, we present the **Bangladeshi Medicinal Plant Phytochemicals Database (BMPPD)** ([https://bmppd.org](https://bmppd.org)), the first comprehensive, peer-curated, web-accessible cheminformatics and ethnobotanical database devoted to the medicinal plants of Bangladesh. Developed over two years of rigorous literature synthesis at **Dawnilab** (the research hub of *Dawn of Bioinformatics Limited Bangladesh*), BMPPD bridges ethnobotanical folk taxonomy with structured molecular cheminformatics. 
 
 Currently, the operational database indexes **341 verified botanical species**, linked to **712 vernacular/common names**, **31,717 curated plant–metabolite associations**, **16,333 unique phytochemical entities**, and **10,302 cross-referenced PubChem Compound Identifiers (CIDs)**, with a cumulative data pipeline encompassing upwards of **700 medicinal taxa and >113,000 phytochemical entries**. Equipped with multi-tiered querying (scientific nomenclature, vernacular designations, compound designations, and PubChem CIDs), automated literature provenance tracing, and an interactive crowdsourced plant request tracking mechanism, BMPPD provides an open, high-performance foundation for secondary metabolite exploration, virtual screening, network pharmacology, and rational drug discovery.
 
 ---
 
-## 1. Introduction & Background
+## 1. Introduction
 
 Phytochemical constituents from medicinal flora serve as critical lead scaffolds for synthetic chemistry, pharmaceutical development, and functional metabolomics. In South Asia, particularly Bangladesh, traditional medicine traditions (such as Ayurveda, Unani, and indigenous folk practices) rely heavily on regional flora. However, researchers, medicinal chemists, and pharmacologists encounter major obstacles during modern drug development pipelines:
 1. **Literature Fragmentation:** Quantitative and qualitative phytochemical reports remain dispersed across disparate regional and international journals, monographs, and institutional dissertations.
@@ -147,7 +146,7 @@ The live platform is deployed at [https://bmppd.org](https://bmppd.org) with the
 
 ### 5.1 Prerequisites
 - **Python:** 3.10, 3.11, or 3.12
-- **Database Engine:** SQLite3 (development) or PostgreSQL / MySQL (production)
+- **Database Engine:** SQLite3 / PostgreSQL / MySQL
 - **Git**
 
 ### 5.2 Environment Setup
@@ -193,36 +192,34 @@ Visit `http://127.0.0.1:8000/` to explore the portal locally.
 
 ---
 
-## 6. Project Leadership & Acknowledgements
+## 6. Project Team & Acknowledgements
 
-The development and ongoing curation of the **Bangladeshi Medicinal Plant Phytochemicals Database (BMPPD)** is conducted under the leadership of **Dawnilab**, the computational research hub of **Dawn of Bioinformatics Limited Bangladesh**.
+The development and ongoing curation of the **Bangladeshi Medicinal Plant Phytochemicals Database (BMPPD)** has been made possible through the collective effort, leadership, and technical expertise of the team at **Dawn of Bioinformatics Limited Bangladesh** and **Dawnilab**.
 
-### Project Leadership & Steering Committee
-- **Project Director:** [Sk. Faisal Ahmed](https://www.linkedin.com/in/skfaisalahmed/) (Strategic leadership, research governance, scientific oversight)
-- **Project Manager:** [Amir Alve](https://www.linkedin.com/in/md-amir-alve/) (Project lifecycle, resource management, timeline oversight)
+### Project Leadership
+- **Project Director:** [Sk. Faisal Ahmed](https://www.linkedin.com/in/skfaisalahmed/)
+- **Project Manager:** [Amir Alve](https://www.linkedin.com/in/md-amir-alve/)
 - **Deputy Project Managers:** 
   - [Imranur Rahman](https://www.linkedin.com/in/md-imranur-rahman-5508a0155/)
   - [Abir Hossain](https://www.linkedin.com/in/abir-hossain-702a941b3/)
   - [Shormila Akter Sumya](https://www.linkedin.com/in/shormila-akter-sumya-48794a210/)
   - [Md Shah Paran](https://www.linkedin.com/in/md-shah-paran-11970a300/)
-- **Database Architecture & Full-Stack Development:** [Md Abu Sadat Soash](https://www.linkedin.com/in/soash-sadat/)
+- **Database Developer:** [Md Abu Sadat Soash](https://www.linkedin.com/in/soash-sadat/)
 
-### Project Coordinators & Data Curators
-Special gratitude is extended to the curation and coordination team for literature synthesis and compound annotation:
-Md Raihan Ahmed, Esha Mony Bristy, Kaniz Fatema, Md Asif Siddque Jim, Zannatul Firdaus, Rafa Uddin, Md Tajul Islam, Taiyara Mahjabin, Md Ismail Hossain, Rakibul Hasan Alif, Md Aftabur Rahman, Rahat Moinul Islam, Foysal Ahmed, Mst. Marjeya, Mst. Afrin Mustari, Md Ashrarul Hasib, Md Sadique Hossain, Nishat Ulfat Nity, Md Foisal Imtiaz, Ovejan Paul Rudra, Asifuzzaman Zisan, Md Delwar Hossen, Tania Akter Nirjona, and Prami Chowdhury Badhan.
+### Project Coordinators
+Special gratitude is extended to the project coordinators and curation team:  
+[Md Raihan Ahmed](https://www.linkedin.com/in/md-raihan-ahmed-b79b5b291), [Esha Mony Bristy](https://www.linkedin.com/in/eshamonybristy), [Kaniz Fatema](https://www.linkedin.com/in/kaniz-fatema-chhowa-4a0465217), [Md Asif Siddque Jim](https://www.linkedin.com/in/asifsiddque/), Zannatul Firdaus, [Rafa Uddin](https://www.linkedin.com/in/rafa-udd-in), [Md Tajul Islam](https://www.linkedin.com/in/md-tajul-islam-06ab38372), [Taiyara Mahjabin](https://www.linkedin.com/in/taiyara-mahjabin-243727209), [Md Ismail Hossain](https://www.linkedin.com/in/md-ismail-hossain-bb2aa1179), [Rakibul Hasan Alif](https://www.linkedin.com/in/rakibul-hasan-alif-8a5362265), [Md Aftabur Rahman](https://www.linkedin.com/in/md-aftabur-rahman-aftab-6b218235b), [Rahat Moinul Islam](https://www.linkedin.com/in/rahatmoinulislam/), [Foysal Ahmed](https://www.linkedin.com/in/foysal-ahmed-joy-100708268), [Mst. Marjeya](https://www.linkedin.com/in/mst-marjeya), [Mst. Afrin Mustari](https://www.linkedin.com/in/afrinmustarii), [Md Ashrarul Hasib](https://www.linkedin.com/in/md-ashrarul-hasib-721543312), [Md Sadique Hossain](https://www.linkedin.com/in/md-sadique-hossain-5368563a8), [Nishat Ulfat Nity](https://www.linkedin.com/in/nishat-ulfat-nity-a5679229b), [Md Foisal Imtiaz](https://www.linkedin.com/in/md-foisal-imtiaz-8b48b6285), [Ovejan Paul Rudra](https://www.linkedin.com/in/ovejan-paul-rudra-6901ba23a/), [Asifuzzaman Zisan](https://www.linkedin.com/in/asifuzzaman-zisan-3ab8a9283), [Md Delwar Hossen](https://www.linkedin.com/in/mddelwarhossen10), [Tania Akter Nirjona](https://www.linkedin.com/in/nirjona-tania-b7262), and [Prami Chowdhury Badhan](https://www.linkedin.com/in/badhan-chowdhury-328785321).
 
 ---
 
-## 7. Terms of Use & Citation
-
-All records and datasets curated within BMPPD are intended strictly for academic, research, and educational applications. 
+## 7. Citation
 
 If you utilize BMPPD data, chemical mappings, or architecture in your scientific investigations, academic dissertations, or computational drug screening publications, please cite the database as follows:
 
 ```bibtex
 @article{BMPPD2026,
-  title   = {Bangladeshi Medicinal Plant Phytochemicals Database (BMPPD): A Curated Web-Based Cheminformatics and Ethnobotanical Repository for Natural Product Drug Discovery},
-  author  = {Ahmed, Sk. Faisal and Alve, Amir and Soash, Md Abu Sadat and Rahman, Imranur and Hossain, Abir and Sumya, Shormila Akter and Paran, Md Shah and {Dawnilab Curation Consortium}},
+  title   = {BMPPD: Bangladeshi Medicinal Plant Phytochemicals Database},
+  author  = {Ahmed, Sk. Faisal and Alve, Amir and Rahman, Imranur and Hossain, Abir and Sumya, Shormila Akter and Paran, Md Shah and Soash, Md Abu Sadat and {BMPPD Consortium}},
   journal = {Dawn of Bioinformatics Limited Bangladesh},
   year    = {2026},
   url     = {https://bmppd.org/}
@@ -233,5 +230,5 @@ If you utilize BMPPD data, chemical mappings, or architecture in your scientific
 
 ## 8. Inquiries & Correspondence
 - **Principal Platform:** [https://bmppd.org](https://bmppd.org)
-- **Research Hub:** [Dawnilab](https://dawnilab.org) (*Dawn of Bioinformatics Limited Bangladesh*)
+- **Organization:** [Dawn of Bioinformatics Limited Bangladesh](https://dawnofbioinformatics.com/)
 - **Scientific Correspondence & Plant Ingestion Requests:** [dawn.of.bioinformatics@gmail.com](mailto:dawn.of.bioinformatics@gmail.com)
