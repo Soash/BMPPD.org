@@ -1,4 +1,4 @@
-# BMPPD: Bangladeshi Medicinal Plant Phytochemicals Database (BMPPD)
+# BMPPD: Bangladeshi Medicinal Plant Phytochemicals Database
 
 [![Live Platform](https://img.shields.io/badge/Platform-Live-brightgreen.svg)](https://bmppd.org/)
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/)
@@ -62,14 +62,14 @@ To overcome these bottlenecks, BMPPD was conceived, engineered, and deployed as 
 +---------------------------------------------------------------------------------+
 ```
 
-### 2.1 Botanical and Chemical Standardization
+### 2.1 Botanical & Chemical Standardization
 Data collection followed a rigorous, multi-tiered manual curation protocol:
 - **Taxonomical Resolution:** Botanical identities were reconciled against global taxonomic databases to verify canonical accepted binomial scientific names and rectify synonymy.
 - **Vernacular Aggregation:** Local and colloquial plant designations were systematically captured to enable researchers without prior botanical taxonomic background to search seamlessly.
 - **Chemical Structure Resolution:** Each reported compound underwent name-to-structure normalization and was cross-referenced with the **PubChem** database to retrieve corresponding PubChem CIDs.
 - **Literature Provenance:** Every plant–phytochemical pair is linked to its underlying primary scientific literature reference.
 
-### 2.2 Data Statistics (Ingested Core Repository)
+### 2.2 Data Statistics
 
 | Dimension / Metric | Verified Count | Functional Role in Repository |
 |:---|:---:|:---|
@@ -219,7 +219,7 @@ If you utilize BMPPD data, chemical mappings, or architecture in your scientific
 ```bibtex
 @article{BMPPD2026,
   title   = {BMPPD: Bangladeshi Medicinal Plant Phytochemicals Database},
-  author  = {Ahmed, Sk. Faisal and Alve, Amir and Rahman, Imranur and Hossain, Abir and Sumya, Shormila Akter and Paran, Md Shah and Soash, Md Abu Sadat and {BMPPD Consortium}},
+  author  = {Sk. Faisal Ahmed and Amir Alve and Imranur Rahman and Abir Hossain and Shormila Akter Sumya and Md Shah Paran and Md Abu Sadat Soash and Md Raihan Ahmed and Esha Mony Bristy and Kaniz Fatema and Md Asif Siddque Jim and Zannatul Firdaus and Rafa Uddin and Md Tajul Islam and Taiyara Mahjabin and Md Ismail Hossain and Rakibul Hasan Alif and Md Aftabur Rahman and Rahat Moinul Islam and Foysal Ahmed and Mst. Marjeya and Mst. Afrin Mustari and Md Ashrarul Hasib and Md Sadique Hossain and Nishat Ulfat Nity and Md Foisal Imtiaz and Ovejan Paul Rudra and Asifuzzaman Zisan and Md Delwar Hossen and Tania Akter Nirjona and Prami Chowdhury Badhan},
   journal = {Dawn of Bioinformatics Limited Bangladesh},
   year    = {2026},
   url     = {https://bmppd.org/}
